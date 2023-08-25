@@ -1,0 +1,82 @@
+html{
+    font-family: sans-serif;
+	background: #25282b;
+	min-width: 1000px;
+    color: white;
+}
+
+.menu-topo {
+	top: 0;
+	display: flex;
+	justify-content: center;
+	padding: 5px 0;
+	background: rgba(114, 114, 114, 0.137);
+}
+
+.largura-site {
+	width: 1000px;
+    margin: 0 auto;
+}
+
+.menu-topo-flex {
+	display: flex;
+}
+
+h1 {
+	flex: 1;
+	font-weight: bold;
+}
+
+.menu-topo-div-link {
+	flex: 0;
+	padding-top: 14px;
+	padding-left: 50px;
+	text-align: right;
+}
+
+header{
+    margin-bottom: 3rem;
+	padding: 4rem 0;
+	background: 50% 20%/cover url('../img/robo.jpg');
+	text-align: center;
+    height: 600px;
+
+}
+
+.imagem-esquerda {
+    flex: 1;
+    margin-top: 2rem;
+    border: 1px solid #eee;
+    max-width: 200px;
+    max-height: 150px;
+}
+
+.imagem-direita1 {
+    flex: 1;
+    margin-top: 2rem;
+    border: 1px solid #eee;
+    height: 10%;
+
+}
+
+.imagem-direita2 {
+    flex: 1;
+    margin-top: 2rem;
+    border: 1px solid #eee;
+    max-height: 10%;
+    max-width: 10%;
+}
+
+.imagem-direita3 {
+    flex: 1;
+    margin-top: 2rem;
+    border: 1px solid #eee;
+    height: 10%;
+}
+
+
+
+
+
+
+
